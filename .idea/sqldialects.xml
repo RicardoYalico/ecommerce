@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240320142857_podesavanje_prizme/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240413064716_added_order_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240414064137_added_category_table_and_added_role_column/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240415100000_added_category_id_field_in_product_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240415130405_added_relationship_between_product_table_and_category_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240418151340_added_new_customer_order_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240512145715_bojan_update_za_customer_order_product/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240515154444_added_necessary_fields_for_customer_order_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240602092804_added_wishlist_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240607074201_added_cascade_delete_in_wishlist_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240607075549_added_cascade_delete_for_categories_in_product_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240607083528_added_cascade_delete_for_wishlist_in_product_table/migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/prisma/migrations/20240607111047_added_unique_constraint_to_name_column_in_the_category_table/migration.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>
