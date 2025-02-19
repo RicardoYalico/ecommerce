@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="AWS-VM-DB" uuid="2464da3c-d528-4332-95c2-7a421989570e">
+    <data-source source="LOCAL" name="EcommerceDB" uuid="7c89425f-601c-43a8-9e8a-6ecbc20bba5f">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://44.201.40.41:3306/ecommerce</jdbc-url>
+      <jdbc-url>jdbc:mysql://bjvo97iiqvymxlravwvs-mysql.services.clever-cloud.com:3306/bjvo97iiqvymxlravwvs</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
