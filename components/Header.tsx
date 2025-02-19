@@ -35,7 +35,7 @@ const Header = () => {
 
   // getting all wishlist items by user id
   const getWishlistByUserId = async (id: string) => {
-    const response = await fetch(`http://localhost:3001/api/wishlist/${id}`, {
+    const response = await fetch(`https://ecommerce-api-58ck.onrender.com/api/wishlist/${id}`, {
       cache: "no-store",
     });
     const wishlist = await response.json();
@@ -57,7 +57,7 @@ const Header = () => {
   const getUserByEmail = async () => {
     if (session?.user?.email) {
       
-      fetch(`http://localhost:3001/api/users/email/${session?.user?.email}`, {
+      fetch(`https://ecommerce-api-58ck.onrender.com/api/users/email/${session?.user?.email}`, {
         cache: "no-store",
       })
         .then((response) => response.json())

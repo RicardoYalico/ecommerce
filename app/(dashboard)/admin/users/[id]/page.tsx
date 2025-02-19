@@ -27,7 +27,7 @@ const DashboardSingleUserPage = ({
     const requestOptions = {
       method: "DELETE",
     };
-    fetch(`http://localhost:3001/api/users/${id}`, requestOptions)
+    fetch(`https://ecommerce-api-58ck.onrender.com/api/users/${id}`, requestOptions)
       .then((response) => {
         if (response.status === 204) {
           toast.success("User deleted successfully");
@@ -62,7 +62,7 @@ const DashboardSingleUserPage = ({
             role: userInput.role,
           }),
         };
-        fetch(`http://localhost:3001/api/users/${id}`, requestOptions)
+        fetch(`https://ecommerce-api-58ck.onrender.com/api/users/${id}`, requestOptions)
           .then((response) => {
             if (response.status === 200) {
               return response.json();
@@ -86,7 +86,7 @@ const DashboardSingleUserPage = ({
 
   useEffect(() => {
     // sending API request for a single user
-    fetch(`http://localhost:3001/api/users/${id}`)
+    fetch(`https://ecommerce-api-58ck.onrender.com/api/users/${id}`)
       .then((res) => {
         return res.json();
       })

@@ -9,7 +9,7 @@ const DashboardUsers = () => {
 
   useEffect(() => {
     // sending API request for all users
-    fetch("http://localhost:3001/api/users")
+    fetch("https://ecommerce-api-58ck.onrender.com/api/users")
       .then((res) => {
         return res.json();
       })
